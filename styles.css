@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Open+Sans:wght@300&display=swap');
+@import url('styles/header/upperbar.css');
+@import url('menu-bar.css');
+
+:root {
+    --bege:          #D3B49F;
+    --branco:        #ffffff;
+    --preto:         #000000;
+    --marrom:        #954A41;
+    --verde:         #599693;
+    --cinza:         #A6A6A6;
+    --cinza-escuro:  #4F605F;
+    --verde-claro:   #E4EBE7; 
+}
+
+
