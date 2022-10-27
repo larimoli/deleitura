@@ -1,0 +1,9 @@
+.banner {
+    background-color: var(--verde-claro);
+}
+
+.banner-img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

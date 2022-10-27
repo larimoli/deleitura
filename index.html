@@ -6,23 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a3ca151fae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <title>deleitura</title>
 </head>
 <body>
     <header>
         <div class="header__upperbar">
-            <p class="upperbar__descricao">Frete grátis e 10% de desconto na <strong class="upperbar__descricao-negrito">primeira compra.</strong></strong></p>
+            <p class="upperbar__descricao">Frete grátis e 10% de desconto na <strong class="negrito">primeira compra.</strong></strong></p>
         </div>
         <div class="menu-bar">
-            <img src="/img/logo.png" alt="#" class="logo">
+            <img src="assets/img/logo.png" alt="#" class="logo">
             <input type="search" class="header__pesquisa" placeholder="o que você procura?">
             <div class="icones">
-                <a href="#" class="menu__favoritos">Favoritos</a>
-                <a href="#" class="menu__carrinho">Carrinho</a>
-                <a href="#" class="menu__usuario">Login</a>
+                <a href="#" class="icon-favorito"><i class="fa-solid fa-heart fa-lg"></i></a>
+                <a href="#" class="icon-carrinho"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+                <a href="#" class="icon-usuario"><i class="fa-solid fa-user fa-lg"></i></a>
+                <p class="login-texto">olá, faça seu <strong class="negrito">login</strong><br>ou <strong class="negrito">cadastre-se</strong>.</p>
             </div>
         </div>
+        <hr>
+        <div class="menu-nav">
+            <ul class="menu-lista">
+                <li class="menu-link">
+                    <a href="#" class="menu-item">Livros</a>
+                </li>
+                <li class="menu-link">
+                    <a href="#" class="menu-item">Decoração</a>
+                </li>
+                <li class="menu-link">
+                    <a href="#" class="menu-item">Papelaria</a>
+                </li>
+                <li class="menu-link">
+                    <a href="#" class="menu-item">Marca páginas</a>
+                </li>
+                <li class="menu-link">
+                    <a href="#" class="menu-item">Acessórios</a>
+                </li>
+            </ul>
+        </div>
     </header>
+    <section class="banner">
+        <img src="/assets/img/banner.png" alt="" class="banner-img">
+    </section>
 </body>
 </html>

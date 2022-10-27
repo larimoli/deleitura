@@ -1,0 +1,81 @@
+.header__upperbar {
+    background-color: var(--bege);
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.upperbar__descricao {
+    color: var(--cinza-escuro);
+    font-size: 14px;
+}
+
+.negrito {
+    font-weight: 700;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.logo {
+    width: 15%;
+}
+
+.header__pesquisa {
+    width: 80%;
+    max-width: 30%;
+    padding: 0.5em;
+    border-radius: 2em;
+    border: transparent;
+    background-color: var(--marrom);
+}
+
+.header__pesquisa::placeholder {
+    font-family: 'Arimo';
+    color: var(--branco);
+    font-size: 12px;
+    text-align: center;
+}
+
+.icones {
+    width: 20%;
+    display: flex;
+    text-align: center;
+}
+
+.icon-favorito, .icon-carrinho, .icon-usuario {
+    color: var(--marrom);
+    padding: 1em;
+}
+
+.login-texto {
+    font-size: 12px;
+    align-self: center;
+}
+
+hr {
+    background-color: var(--marrom);
+    height: 0.5px;
+    border: none;
+}
+
+.menu-lista {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-link {
+    padding: 1.5em;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 16px;
+}
