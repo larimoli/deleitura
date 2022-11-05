@@ -4,6 +4,7 @@
 @import url('/assets/styles/introducao.css');
 @import url('assets/styles/produtos.css');
 @import url('/assets/styles/newsletter.css');
+@import url('assets/styles/rodape.css');
 
 :root {
     --bege:          #D3B49F;

@@ -7,6 +7,11 @@
     align-items: center;
 }
 
+.icon-newsletter {
+    color: var(--verde);
+    margin-right: 1em;
+}
+
 .newsletter__descricao {
     color: var(--verde);
     font-size: 20px;

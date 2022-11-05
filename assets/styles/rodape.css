@@ -1,0 +1,29 @@
+.rodape__primeiro-conteudo {
+    background: var(--bege);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.rodape__texto {
+    color: var(--marrom);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 1em;
+    align-items: center;
+}
+
+.rodape__item {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.rodape__img {
+    width: 6%;
+    border-radius: 0.3em;
+}
+
+.icon-instagram, .icon-twitter, .icon-linkedin, .icon-email {
+    color: var(--verde);
+}
