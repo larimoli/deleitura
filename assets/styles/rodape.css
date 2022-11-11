@@ -14,9 +14,8 @@
     align-items: center;
 }
 
-.rodape__item {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
+.rodape__menu-nav {
+    display: flex;
 }
 
 .rodape__img {
@@ -26,4 +25,36 @@
 
 .icon-instagram, .icon-twitter, .icon-linkedin, .icon-email {
     color: var(--verde);
+}
+
+.footer__hr {
+    background-color: var(--verde);
+    margin: auto;
+    height: 2px;
+}
+
+.rodape__informacoes-lista {
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape__informacoes-link a {
+    color: var(--preto);
+    font-size: 14px;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.dados p {
+    padding: 0.2em;
+    font-size: 13px;
 }
