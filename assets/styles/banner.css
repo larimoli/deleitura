@@ -1,9 +1,5 @@
-.banner {
-    background-color: var(--verde-claro);
-}
-
 .banner-img {
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: block;
 }

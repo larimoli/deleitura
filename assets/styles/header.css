@@ -22,9 +22,6 @@
     margin: 1em;
 }
 
-.logo {
-    width: 15%;
-}
 
 .header__pesquisa {
     width: 80%;
@@ -33,6 +30,7 @@
     border-radius: 2em;
     border: transparent;
     background-color: var(--marrom);
+    color: var(--branco);
 }
 
 .header__pesquisa::placeholder {
@@ -40,6 +38,10 @@
     color: var(--branco);
     font-size: 12px;
     text-align: center;
+}
+
+.header__pesquisa:focus-visible {
+    
 }
 
 .icones {
@@ -56,6 +58,7 @@
 .login-texto {
     font-size: 12px;
     align-self: center;
+    text-align: justify;
 }
 
 hr {

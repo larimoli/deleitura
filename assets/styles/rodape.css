@@ -6,9 +6,8 @@
 
 .rodape__container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 1em 0
 }
 
 
@@ -26,12 +25,13 @@
 }
 
 .rodape__img {
-    width: 6%;
+    width: 70px;
     border-radius: 0.3em;
 }
 
-.icon-instagram, .icon-twitter, .icon-linkedin, .icon-email {
+.icon-redesocial {
     color: var(--verde);
+    margin: 0.2em;
 }
 
 .rodape__nav-lista {
@@ -78,4 +78,33 @@
 .dados p {
     padding: 0.2em;
     font-size: 13px;
+}
+
+.rodape__pagamento {
+    display: flex;
+    justify-content: center;
+    flex: 4;
+    flex-direction: column;
+}
+
+.rodape__texto{
+    text-align: center;
+}
+
+.rodape__logo {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.rodape__redes-sociais{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.rodape__lista{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
 }
