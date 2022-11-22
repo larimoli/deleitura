@@ -40,10 +40,6 @@
     text-align: center;
 }
 
-.header__pesquisa:focus-visible {
-    
-}
-
 .icones {
     width: 20%;
     display: flex;
