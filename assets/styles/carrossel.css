@@ -1,7 +1,3 @@
-.titulo-produtos {
-    
-}
-
 .container__produtos {
     display: grid;
     grid-template-columns: repeat(4, 0.1fr);
